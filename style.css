@@ -1,0 +1,52 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+  }
+
+  .outer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffff00;
+    height: 100vh;
+  }
+
+  .inner-container {
+    margin-top: 5rem;
+  }
+
+  .title {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .circle {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    background-color: #777729;
+    border-radius: 100%;
+  }
+  .rectangle-with-triangle {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #fa2d2d;
+  }
+  .triangle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid #ffff00;
+  }
